@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Fry</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/responsive.styles.css">
+    <link rel="icon" href="./images/favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="announcement bg-violet text-center txt-white font-14 fw-700 lh-normal">This is an announcement
+            tagline for you to insert
+        </div>
+        <nav class="navbar nav d-flex align-items-center justify-content-between">
+            <ul class="nav-links d-flex gap-20 align-items-center justify-content-between w-50">
+                <div class="nav-logo flex-center cur-ptr">
+                    <img src="./images/logo-1.svg" alt="Uifry Logo">
+                </div>
+                <div class="nav-main-links d-flex gap-20 align-items-center justify-content-between">
+                    <a href="#home" class="font-small-1 hov-underline text-deco-none">Home</a>
+                    <a href="#about" class="font-small-1 hov-underline text-deco-none">About</a>
+                    <a href="#pricing" class="font-small-1 hov-underline text-deco-none">Pricing</a>
+                    <a href="#blog" class="font-small-1 hov-underline text-deco-none">Blog</a>
+                </div>
+            </ul>
+            <div class="flex-center gap-20">
+                <button class="btn-1 bg-pink bor-rad-5 cur-ptr font-small-1"><span>Contact Now</span></button>
+                <button class="toggle-btn d-none" id="toggle-btn">
+                    ☰
+                </button>
+            </div>
+
+            <!-- Mobile Nav Links -->
+            <ul class="mobile-nav-links d-none flex-column gap-10" id="mobile-nav-links">
+                <a href="#home" class="font-small-1 hov-underline text-deco-none">Home</a>
+                <a href="#about" class="font-small-1 hov-underline text-deco-none">About</a>
+                <a href="#pricing" class="font-small-1 hov-underline text-deco-none">Pricing</a>
+                <a href="#blog" class="font-small-1 hov-underline text-deco-none">Blog</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main overflow-hidden">
+
+        <section class="hero d-flex">
+            <div class="hero-content">
+                <h1 class="hero-title mb-40 txt-headings font-54 fw-700 lh-62">Launch A Software Businesses Website
+                    Today With Us!</h1>
+                <p class="mb-40 txt-dark-purple max-width-530"> Launch a business today with our help and get it done
+                    with amazing launch features, websites and more with uifry. We help business like yours thrive every
+                    day and beyond.</p>
+
+                <div class="cta-group d-flex flex-wrap mb-40 align-items-center gap-20">
+                    <button class="cta-button btn-1 bg-pink bor-rad-5 cur-ptr font-small-1"> <span><span>Contact
+                                Now</span></span> </button>
+                    <button class="cta-book-demo bg-white d-flex align-items-center gap-20 cur-ptr">
+                        <div class="border-pink bor-rad-5 flex-center"><img src="./images/right-arrow-1.svg"
+                                alt="book demo"></div>
+                        <span class="font-small-1 font-16 fw-700">Book a Demo Today</span>
+                    </button>
+                </div>
+
+                <div class="hero-rating d-flex gap-20 align-items-center">
+                    <div class="flex-center bg-pink bor-rad-5"><img src="./images/Star.svg" alt="rating-star"></div>
+                    <span class="txt-dark-purple">Rated 4.9 out of 1200 reviews</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./images/woman-with-laptop.webp" alt="hero-image" class="image-fit-cover">
+                <!-- <img src="./images/arrow-star-bg.svg" alt="arrow star "> -->
+            </div>
+        </section>
+
+        <section class="trusted-by">
+            <p class="trusted-text">Trusted by over 100+ businesses worldwide!</p>
+            <div class="trusted-logo-ctr">
+                <div class="trust-logo"><img src="./images/intercom.svg" alt="intercom"></div>
+                <div class="trust-logo"><img src="./images/treehouse.svg" alt="treehouse"></div>
+                <div class="trust-logo"><img src="./images/zapier.svg" alt="zapier"></div>
+                <div class="trust-logo"><img src="./images/marvel.svg" alt="marvel"></div>
+                <div class="trust-logo"><img src="./images/notion.svg" alt="notion"></div>
+                <div class="trust-logo"><img src="./images/shazam.svg" alt="shazam"></div>
+            </div>
+        </section>
+
+        <section class="business-growth d-flex">
+            <div class="business-growth-img overflow-hidden">
+                <img src="./images/businessman-with-stats.png" alt="man-with-stats" class="image-fit-cover">
+            </div>
+            <div class="business-growth-content">
+                <h3 class="txt-headings max-width-530 mb-40 font-38 fw-700 lh-45_6">Let your business thrive under our
+                    supervision</h3>
+                <p class="txt-headings mb-40 max-width-530">Launch a business today with our help and get it done with
+                    amazing launch features, websites and more
+                    with uifry. We help business like yours thrive every day and beyond.</p>
+                <p class="txt-headings mb-40">We are making every business grow!</p>
+
+                <ul class="business-g-features">
+                    <li class="business-g-feature gap-20 mb-12">
+                        <img src="./images/Tick Square.svg" alt="tick">
+                        <span class="txt-headings"> Super useful and easy to use interface </span>
+                    </li>
+                    <li class="business-g-feature gap-20 mb-40">
+                        <img src="./images/tick square.svg" alt="tick">
+                        <span class="txt-headings"> Easiest way to grow your business in days </span>
+                    </li>
+                </ul>
+
+                <button
+                    class="btn-1 bg-pink bor-rad-5 cur-ptr font-small-1 d-flex align-items-center gap-13 justify-content-between">
+                    <span>Contact Now</span>
+                    <img src="./images/right-arrow-2.svg" alt="right arrow">
+                </button>
+            </div>
+        </section>
+
+        <section class="features feature-common bor-rad-5 d-flex justify-content-between bg-violet txt-white">
+            <div class="feature flex-wrap flex-center gap-20">
+                <img src="./images/tick square.svg" alt="tick">
+                <p class="mb-0">Super useful and easy to with over 100+ customisations!</p>
+            </div>
+            <div class="feature flex-wrap flex-center gap-20">
+                <img src="./images/time-circle.svg" alt="time">
+                <p class="mb-0">Super useful and easy to with over 100+ customisations!</p>
+            </div>
+            <div class="feature flex-wrap flex-center gap-20">
+                <img src="./images/upload.svg" alt="upload">
+                <p class="mb-0">Super useful and easy to with over 100+ customisations!</p>
+            </div>
+        </section>
+
+
+        <section class="business-contact d-flex justify-content-between">
+            <div class="business-contact-content">
+                <h3 class="txt-headings max-width-530 mb-40 font-38 fw-700 lh-45_6">Let your business thrive under our
+                    supervision</h3>
+                <p class="txt-headings mb-40 max-width-530">Launch a business today with our help and get it done with
+                    amazing launch features, websites and more
+                    with uifry. We help business like yours thrive every day and beyond.</p>
+                <p class="txt-headings fw-700 mb-40">We are making every business grow!</p>
+
+
+                <div class="contact-form">
+                    <div class="form-group w-100 mb-16 position-relative">
+                        <img src="./images/user-icn.svg" alt="user icn" class="input-icon position-absolute">
+                        <input type="text" class="input-1 font-inter txt-dark-purple bor-rad-5 border-grey"
+                            placeholder="Full Name">
+                    </div>
+                    <div class="form-group w-100 mb-16 position-relative">
+                        <img src="./images/mail-icon.svg" alt="mail icn" class="input-icon position-absolute">
+                        <input type="text" class="input-1 font-inter txt-dark-purple bor-rad-5 border-grey"
+                            placeholder="Email Address">
+                    </div>
+
+                    <button class="btn-1 flex-center w-100 btn-2 bg-pink bor-rad-5 cur-ptr font-small-1"><span>Contact
+                            Now</span> <img src="./images/right-arrow-2.svg" alt="arrow"> </button>
+                </div>
+            </div>
+            <div class="business-contact-img overflow-hidden">
+                <img src="./images/woman-with-stats.webp" alt="man with stats" class="image-fit-cover">
+            </div>
+        </section>
+
+        <section class="updates">
+            <h3 class="txt-headings text-center mb-12 font-38 fw-700 lh-45_6">Our latest updates for you here!</h3>
+            <p class="update-subtitle txt-dark-purple text-center font-inter">Whats happening around the World.</p>
+
+            <div class="update-content d-flex gap-20">
+                <div class="update-card bor-rad-5">
+                    <div><img src="./images/growth.webp" alt="Growth"
+                            class="update-card-img image-fit-cover bor-rad-5 mb-20"></div>
+                    <p class="update-category font-inter mb-26 txt-dark-purple font-inter fw-400 lh-28">Growth</p>
+
+                    <p class="update-descp mb-26 txt-headings fw-700">15 ways to grow your saas in 21 days with no money
+                    </p>
+
+                    <a href="#" class="right-arrow-1 flex-center border-pink bor-rad-5"><img
+                            src="./images/right-arrow-1.svg" alt="arrow"></a>
+                </div>
+
+                <div class="update-card bor-rad-5">
+                    <div><img src="./images/career.webp" alt="career"
+                            class="update-card-img image-fit-cover bor-rad-5 mb-20"></div>
+                    <p class="update-category font-inter mb-26 txt-dark-purple">Career</p>
+
+                    <p class="update-descp mb-26 txt-headings fw-700">15 ways to grow your saas in 21 days with no money
+                    </p>
+
+                    <a href="#" class="right-arrow-1 flex-center border-pink bor-rad-5"><img
+                            src="./images/right-arrow-1.svg" alt="arrow"></a>
+                </div>
+
+                <div class="update-card bor-rad-5">
+                    <div><img src="./images/design.webp" alt="Design"
+                            class="update-card-img image-fit-cover bor-rad-5 mb-20"></div>
+                    <p class="update-category font-inter mb-26 txt-dark-purple">Design</p>
+
+                    <p class="update-descp mb-26 txt-headings fw-700">15 ways to grow your saas in 21 days with no money
+                    </p>
+
+                    <a href="#" class="right-arrow-1 flex-center border-pink bor-rad-5"><img
+                            src="./images/right-arrow-1.svg" alt="arrow"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="business-metrics d-flex justify-content-between">
+            <div class="metrics-container">
+                <div class="metrics-content">
+                    <h3 class="txt-headings max-width-530 mb-40 font-38 fw-700 lh-45_6">Let your business thrive under
+                        our supervision</h3>
+                    <p class="mb-40 txt-dark-purple max-width-530">Launch a business today with our help and get it done
+                        with amazing launch features, websites and
+                        more with uifry. We help business like yours thrive every day and beyond.</p>
+
+                    <div class="stats-ctr d-flex flex-wrap gap-30 mb-40">
+                        <div class="stat-item d-flex gap-20">
+                            <img src="./images/tick square.svg" alt="tick">
+                            <div class="stat-text d-flex flex-column">
+                                <div class="stat-value">100+</div>
+                                <div class="stat-label">Successfull Projects</div>
+                            </div>
+                        </div>
+                        <div class="stat-item d-flex gap-20">
+                            <img src="./images/tick square.svg" alt="tick">
+                            <div class="stat-text d-flex flex-column">
+                                <div class="stat-value">978+</div>
+                                <div class="stat-label">Clients Today</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-group d-flex flex-wrap mb-40 align-items-center gap-20">
+                    <button class="cta-button btn-1 bg-pink bor-rad-5 cur-ptr font-small-1"><span>Contact
+                            Now</span></button>
+                    <button class="cta-book-demo bg-white d-flex align-items-center gap-20 cur-ptr">
+                        <div class="border-pink bor-rad-5 flex-center"><img src="./images/right-arrow-1.svg"
+                                alt="book demo"></div>
+                        <span class="font-small-1 font-16 fw-700">Book a Demo Today</span>
+                    </button>
+                </div>
+            </div>
+            <div class="metrics-img">
+                <img src="./images/man-grow-business.png" alt="grow" class="image-fit-cover">
+            </div>
+            </div>
+        </section>
+
+        <section class="features feature-common bor-rad-5 d-flex justify-content-between bg-violet txt-white">
+            <div class="feature flex-wrap flex-center gap-20">
+                <img src="./images/orange-tick.svg" alt="tick">
+                <p class="mb-0">Super useful and easy to with over 100+ customisations!</p>
+            </div>
+            <div class="feature flex-wrap flex-center gap-20">
+                <img src="./images/tick-orange.svg" alt="tick">
+                <p class="mb-0">Super useful and easy to with over 100+ customisations!</p>
+            </div>
+            <div class="feature flex-wrap flex-center gap-20">
+                <img src="./images/tick-blue.svg" alt="tick">
+                <p class="mb-0">Super useful and easy to with over 100+ customisations!</p>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="faq-header d-flex flex-column align-items-center">
+                <img src="./images/faq.svg" alt="faq logo" class="mb-12">
+                <h2 class="mb-0">Frequently asked questions</h2>
+                <p>Whats happening around the World.</p>
+            </div>
+
+            <div class="faq-content mx-auto">
+                <div class="faq-item active">
+                    <div class="faq-question d-flex align-items-center justify-content-between cur-ptr bg-white">
+                        What is the best way to create a saas business today?
+                        <span class="icon-expand"></span>
+                    </div>
+                    <div class="faq-answer overflow-hidden bg-white">
+                        <p>Launch a business today with our help and get it done with amazing launch features, websites
+                            and more with uifry. We help business like yours thrive every day and beyond. Launch a
+                            business today with our help and get it done with amazing launch features, websites and more
+                            with uifry. We help business like yours thrive every day and beyond.</p>
+                        <p>Launch a business today with our help and get it done with amazing launch features, websites
+                            and more with uifry. We help business like yours thrive every day and beyond. Launch a
+                            business today with our help and get it done with amazing launch features, websites and more
+                            with uifry. We help business like yours thrive every day and beyond.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question d-flex align-items-center justify-content-between cur-ptr bg-white">
+                        What is the best way to create a saas business today?
+                        <span class="icon-expand"></span>
+                    </div>
+                    <div class="faq-answer overflow-hidden bg-white">
+                        <p>Launch a business today with our help and get it done with amazing launch features, websites
+                            and more with uifry. We help business like yours thrive every day and beyond. Launch a
+                            business today with our help and get it done with amazing launch features, websites and more
+                            with uifry. We help business like yours thrive every day and beyond.</p>
+                        <p>Launch a business today with our help and get it done with amazing launch features, websites
+                            and more with uifry. We help business like yours thrive every day and beyond. Launch a
+                            business today with our help and get it done with amazing launch features, websites and more
+                            with uifry. We help business like yours thrive every day and beyond.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question d-flex align-items-center justify-content-between cur-ptr bg-white">
+                        What is the best way to create a saas business today?
+                        <span class="icon-expand"></span>
+                    </div>
+                    <div class="faq-answer overflow-hidden bg-white">
+                        <p>Launch a business today with our help and get it done with amazing launch features, websites
+                            and more with uifry. We help business like yours thrive every day and beyond. Launch a
+                            business today with our help and get it done with amazing launch features, websites and more
+                            with uifry. We help business like yours thrive every day and beyond.</p>
+                        <p>Launch a business today with our help and get it done with amazing launch features, websites
+                            and more with uifry. We help business like yours thrive every day and beyond. Launch a
+                            business today with our help and get it done with amazing launch features, websites and more
+                            with uifry. We help business like yours thrive every day and beyond.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question d-flex align-items-center justify-content-between cur-ptr bg-white">
+                        What is the best way to create a saas business today?
+                        <span class="icon-expand"></span>
+                    </div>
+                    <div class="faq-answer overflow-hidden bg-white">
+                        <p>Launch a business today with our help and get it done with amazing launch features, websites
+                            and more with uifry. We help business like yours thrive every day and beyond. Launch a
+                            business today with our help and get it done with amazing launch features, websites and more
+                            with uifry. We help business like yours thrive every day and beyond.</p>
+                        <p>Launch a business today with our help and get it done with amazing launch features, websites
+                            and more with uifry. We help business like yours thrive every day and beyond. Launch a
+                            business today with our help and get it done with amazing launch features, websites and more
+                            with uifry. We help business like yours thrive every day and beyond.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question d-flex align-items-center justify-content-between cur-ptr bg-white">
+                        What is the best way to create a saas business today?
+                        <span class="icon-expand"></span>
+                    </div>
+                    <div class="faq-answer overflow-hidden bg-white">
+                        <p>Launch a business today with our help and get it done with amazing launch features, websites
+                            and more with uifry. We help business like yours thrive every day and beyond. Launch a
+                            business today with our help and get it done with amazing launch features, websites and more
+                            with uifry. We help business like yours thrive every day and beyond.</p>
+                        <p>Launch a business today with our help and get it done with amazing launch features, websites
+                            and more with uifry. We help business like yours thrive every day and beyond. Launch a
+                            business today with our help and get it done with amazing launch features, websites and more
+                            with uifry. We help business like yours thrive every day and beyond.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-group d-flex flex-wrap justify-content-center align-items-center gap-20">
+                <button class="cta-button btn-1 bg-pink bor-rad-5 cur-ptr font-small-1"><span>Contact
+                        Now</span></button>
+                <button class="cta-book-demo bg-white d-flex align-items-center gap-20 cur-ptr">
+                    <div class="border-pink bor-rad-5 flex-center"><img src="./images/right-arrow-1.svg"
+                            alt="book demo"></div>
+                    <span class="font-small-1 font-16 fw-700">Book a Demo Today</span>
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content d-flex justify-content-between align-items-center">
+            <div class="footer-logo flex-center">
+                <img src="./images/logo-1.svg" alt="logo">
+            </div>
+
+            <nav class="footer-nav d-flex align-items-center justify-content-between">
+                <a href="#"
+                    class="footer-nav-link txt-dark-purple font-14 fw-700 lh-normal font-jakarta text-deco-none">Home</a>
+                <a href="#"
+                    class="footer-nav-link txt-dark-purple font-14 fw-700 lh-normal font-jakarta text-deco-none">About</a>
+                <a href="#"
+                    class="footer-nav-link txt-dark-purple font-14 fw-700 lh-normal font-jakarta text-deco-none">Pricing</a>
+                <a href="#"
+                    class="footer-nav-link txt-dark-purple font-14 fw-700 lh-normal font-jakarta text-deco-none">Blog</a>
+                <a href="#"
+                    class="footer-nav-link txt-dark-purple font-14 fw-700 lh-normal font-jakarta text-deco-none">Contact</a>
+            </nav>
+        </div>
+
+        <hr class="footer-hr">
+
+        <div class="footer-bottom d-flex justify-content-between gap-20 align-items-center">
+            <p class="copyright txt-dark-purple font-14 fw-400 lh-normal font-jakarta">
+                All rights reserved ® uifry.com | Terms and conditions apply!
+            </p>
+
+            <div class="social-links flex-center">
+                <a href="#" class="social-link flex-center"><img src="./images/instagram.svg" alt="instagram"></a>
+                <a href="#" class="social-link flex-center"><img src="./images/flickr.svg" alt="flickr"></a>
+                <a href="#" class="social-link flex-center"><img src="./images/pinterest.svg" alt="pinterest"></a>
+                <a href="#" class="social-link flex-center"><img src="./images/twitter.svg" alt="twitter"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Navbar Functionality
+            const toggleBtn = document.getElementById('toggle-btn');
+            const mobileNavLinks = document.getElementById('mobile-nav-links');
+
+            if (toggleBtn && mobileNavLinks) {
+                toggleBtn.addEventListener('click', (event) => {
+                    mobileNavLinks.classList.toggle('active');
+                    event.stopPropagation();
+                });
+
+                document.addEventListener('click', (event) => {
+                    if (!mobileNavLinks.contains(event.target) && !toggleBtn.contains(event.target)) {
+                        mobileNavLinks.classList.remove('active');
+                    }
+                });
+
+                window.addEventListener('resize', () => {
+                    if (window.innerWidth > 992) {
+                        mobileNavLinks.classList.remove('active');
+                    }
+                });
+            }
+
+            // FAQ Functionality
+            const faqItems = document.querySelectorAll('.faq-item');
+
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+
+                if (question) {
+                    question.addEventListener('click', () => {                        
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item && otherItem.classList.contains('active')) {
+                                otherItem.classList.remove('active');
+                            }
+                        });
+                        
+                        item.classList.toggle('active');
+                    });
+                }
+            });
+
+            // Trusted By Section Animation
+            const trustedBySection = document.querySelector('.trusted-by');
+            const logos = document.querySelectorAll('.trust-logo');
+
+            if (trustedBySection && logos.length > 0) {
+                const observer = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            trustedBySection.classList.add('animate');
+                            logos.forEach((logo, index) => {
+                                logo.style.transitionDelay = `${0.2 * index}s`;
+                                logo.classList.add('animate');
+                            });
+                            observer.disconnect(); 
+                        }
+                    });
+                }, { threshold: 0.3 }); 
+
+                observer.observe(trustedBySection);
+            }
+
+            // Features Section Animation
+            const features = document.querySelectorAll('.feature');
+
+            if (features.length > 0) {
+                const featuresObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible');
+                            featuresObserver.unobserve(entry.target); 
+                        }
+                    });
+                }, { threshold: 1 }); 
+
+                features.forEach(feature => {
+                    featuresObserver.observe(feature);
+                });
+            }
+        });
+
+    </script>
+</body>
+
+</html>

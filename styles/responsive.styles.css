@@ -1,0 +1,59 @@
+/* ----- responsive.style.css ----- */
+
+@media (max-width: 1200px) {
+    .navbar, .main, .footer { padding: 30px 50px; }
+    .hero-title { font-size: 45px; line-height: 60px; }
+    .business-growth-content h3, .business-contact-content h3, .updates h3, .metrics-content h3 { font-size: 32px; line-height: 40px; }
+    .feature-common { padding: 70px 80px; }
+}
+
+@media (max-width: 992px) {
+    .navbar, .main, .footer { padding: 30px; }
+    .hero { flex-direction: column; }
+    .hero-title { font-size: 38px; line-height: 50px; }
+    .hero-content, .hero-image { width: 100%; }
+    .hero-image { display: flex; align-items: center; justify-content: center; }
+    .hero-image img { object-fit: contain; max-width: 70%; min-width: 400px; margin: 0 auto; }
+    .business-growth, .business-contact, .business-metrics { flex-direction: column; }
+    .business-contact { max-height: 100%; }
+    .business-growth-img, .business-growth-content, .business-contact-content, .business-contact-img, .metrics-container, .metrics-img { width: 100%; }
+    .business-growth-img, .business-contact-img, .metrics-img { display: flex; justify-content: center; }
+    .business-growth-img img, .business-contact-img, .metrics-img img { max-width: 60%; min-width: 350px; margin: 0 auto; }
+    .feature-common { flex-direction: column; padding: 50px 80px; gap: 30px; }
+    .update-descp { font-size: 20px; line-height: 28px; }
+    .update-content { flex-direction: column; }
+    .update-card { width: 50%; min-width: 300px; margin: 0 auto; }
+    .footer-nav { max-width: 100%; }
+    .mobile-nav-links { border-top: solid 1px #fae9ea; }
+    .nav-main-links { display: none; }
+    .toggle-btn { display: inline-block; }
+}
+
+@media (max-width: 768px) {
+    .trusted-by { flex-direction: column; padding: 30px; }
+    .trusted-text { margin-bottom: 20px; text-align: center; }
+    .trusted-logo-ctr { width: 100%; flex-wrap: wrap; justify-content: center; }
+    .trust-logo { margin: 10px; }
+    .faq-content { max-width: 100%; padding: 20px 0; }
+    .faq-question { padding: 14px 16px; }
+    .footer-content, .footer-bottom { gap: 20px; flex-wrap: wrap; justify-content: center; }
+    .copyright { text-align: center; }
+    .footer-nav { flex-wrap: wrap; justify-content: center; }
+}
+
+@media (max-width: 480px) {
+    .navbar, .main, .footer { padding: 30px 20px; }
+    .navbar { flex-wrap: wrap; gap: 10px; }
+    .nav-links { width: auto; }
+    .btn-1 { padding: 16px; }
+    .hero-image img { max-width: 100%; min-width: auto; }
+    .hero-title { font-size: 30px; line-height: 45px; }
+    .business-growth-content h3, .business-contact-content h3, .updates h3, .metrics-content h3 { font-size: 24px; line-height: 33px; }
+    .hero-content p, .business-growth-content p, .business-g-feature span, .feature p, .metrics-content p, .stats-label, .stats-value { font-size: 15px !important; line-height: 28px; }
+    .feature p { text-align: center; }
+    .feature-common { padding: 40px; }
+    .contact-form { width: 100%; }
+    .cta-group { gap: 30px; }
+    .business-growth-img img, .business-contact-img, .metrics-img img { min-width: auto; width: 100%; max-width: 100%; }
+    .update-card { min-width: auto; width: 100%; }
+}
